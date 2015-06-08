@@ -1,6 +1,6 @@
 # syntax-highlighting-for-android-hiro-macro
 
-Basic syntax highlighting for the Android's Hiro Macro scripts:
+Atom syntax highlighting for the Android's Hiro Macro scripts:
 
 http://prohiro.com/?page_id=399
 
