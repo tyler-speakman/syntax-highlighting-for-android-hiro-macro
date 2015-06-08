@@ -1,0 +1,25 @@
+'scopeName': 'source.hiro-macro'
+'name': 'hiro-macro'
+'fileTypes': ['HIRO']
+'patterns': [
+  {
+    'match': '[\r\n\t\ ]+//[^\r\n]+[\r\n]+'
+    'name': 'comment.line'
+  },
+  {
+    'match': '(?i)\\b(if|else|endif|goto)\\b'
+    'name': 'keyword.control'
+  },
+  {
+    'match': '(?i)\\b(var|set)\\b'
+    'name': 'storage.modifier'
+  },
+  {
+    'match': '(?i)\\#[a-zA-Z_]+\\b'
+    'name': 'entity.name'
+  },
+  {
+    'match': '(?i)\\b(touchDown|touchMove|touchUp|touchPress|keyDown|keyUp|keyPress|Sleep|Calc|calculation|Rand|getColor|getColorGray|getRGB|screenLock|RunApp|WaitApp|CheckApp|Toast|Log)\\b'
+    'name': 'storage.type.function'
+  }
+]

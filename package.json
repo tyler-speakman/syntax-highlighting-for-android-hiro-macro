@@ -1,0 +1,9 @@
+{
+  "name": "language-piro-macro",
+  "version": "0.0.1",
+  "description": "Syntax highlighting for Android's Piro Macro",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  }
+}
